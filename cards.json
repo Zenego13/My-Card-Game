@@ -1,132 +1,134 @@
-{
-  "name": "Goblin",
-  "type": "Creature",
-  "color": "Red",
-  "attack": 1,
-  "health": 1,
-  "cost": "R",  // "R" for red mana (fire)
-  "keywords": ["Quick"],  // "This creature may attack the turn it is summoned.
-  "description": "Clever enough to make traps, foolish enough to step in them.",
-  "image": "goblin.png"
-},
-{
-  "name": "Tiger",
-  "type": "Creature",
-  "color": "Green",
-  "attack": 3,
-  "health": 2,
-  "cost": "1G",  // "G" for green mana (nature)
-  "keywords": ["Strength"],  // This creature deals excess damage directly to the opponent if blocked.
-  "description": "Its roar shakes the forest, its claws carve legends into the earth.",
-  "image": "tiger.png"
-},
-{
-  "name": "Shinigami",
-  "type": "Creature",
-  "color": "White",
-  "attack": 2,
-  "health": 1,
-  "cost": "W",  // "W" for white mana (life) 
-  "keywords": ["Aura"],  // When this creature is dealt damage, it's controller gains that much in life.
-  "description": "With every swing of the scythe, another name is crossed from its list.",
-  "image": "shinigami.png"
-},
-{
-  "name": "Wanderer",
-  "type": "Creature",
-  "color": "Blue",
-  "attack": 1,
-  "health": 3,
-  "cost": "1U",  // "U", for blue mana (water)
-  "keywords": ["Draw"],  // When this creature enters the battlefield, draw a card.
-  "description": "With no home to return to, the road itself becomes a companion.",
-  "image": "wanderer.png"
-},
-{
-  "name": "Demon",
-  "type": "Creature",
-  "color": "Black",
-  "attack": 3,
-  "health": 4,
-  "cost": "2B",  // "B" for black mana (death)
-  "keywords": ["Armored"],  // This creature can block up to two attacking creatures.
-  "description": "Whispers of ruin follow in its wake, promising power at a terrible cost.",
-  "image": "demon.png"
-},
-{
-  "name": "Treant",
-  "type": "Creature",
-  "color": "Green",
-  "attack": 2,
-  "health": 5,
-  "cost": "2G",  // "G" for green mana (nature)
-  "keywords": ["Photosynthesis"],  // At the beggining of your upkeep, gain 2 life.
-  "description": "Ancient guardians of the wood, their roots run as deep as their wisdom.",
-  "image": "treant.png"
-},
-{
-  "name": "Fish",
-  "type": "Creature",
-  "color": "Blue",
-  "attack": 1,
-  "health": 1,
-  "cost": "U",  // "U" for blue mana (water)
-  "keywords": ["Swift"],  // This creature cannot be blocked.
-  "description": "Silent, unblinking, and always watching from the depths.",
-  "image": "fish.png"
-},
-{
-  "name": "Paladin",
-  "type": "Creature",
-  "color": "White",
-  "attack": 3,
-  "health": 4,
-  "cost": "2W",  // "W" for white mana (life)
-  "keywords": ["Alert"],  // This creature does not tap when attacking.
-  "description": "A beacon of light amidst the darkness, unyielding in faith.",
-  "image": "paladin.png"
-},
-{
-  "name": "Warlock",
-  "type": "Creature",
-  "color": "Black",
-  "attack": 2,
-  "health": 5,
-  "cost": "1BB",  // "B" for black mana (death)
-  "keywords": ["Hex"],  // When this creature is dealt damage, that damage is dealt back to the attacker.
-  "description": "The price of forbidden knowledge is paid in whispers and shadows.",
-  "image": "warlock.png"
-},
-{
-  "name": "Wizard",
-  "type": "Creature",
-  "color": "Red",
-  "attack": 2,
-  "health": 5,
-  "cost": "2R",  // "R" for red mana (fire)
-  "keywords": ["Flamme"],  // When this creature enters the battlefield, deal 2 damage to each opponent.
-  "description": "The arcane bends to their will, though it is never without a cost.",
-  "image": "wizard.png"
-},
-{
-  "name": "Bird",
-  "type": "Creature",
-  "color": "White",
-  "attack": 4,
-  "health": 3,
-  "cost": "3W",  // "W" for white mana (life)
-  "keywords": ["Flight"],  // This creature can only be blocked by creatures with Flight.
-  "description": "A fleeting shadow against the sun, untouchable and free.",
-  "image": "bird.png"
-},
-{
-  "name": "Rat",
-  "type": "Creature",
-  "color": "Black",
-  "attack": 1,
-  "health": 1,
-  "cost": "1B",  // "B" for black mana (death)
-  "keywords": ["Garbage"],  // At the beginning of each main phase, add {skull} to your mana pool.
-  "description": "Where one scurries, a hundred more lie in wait.",
-  "image": "rat.png"
-},
+[
+  {
+    "name": "Goblin",
+    "type": "Creature",
+    "color": "Red",
+    "attack": 1,
+    "health": 1,
+    "cost": "R",
+    "keywords": ["Quick"],
+    "description": "Clever enough to make traps, foolish enough to step in them.",
+    "image": "https://i.imgur.com/RGxOYy7.png"
+  },
+  {
+    "name": "Tiger",
+    "type": "Creature",
+    "color": "Green",
+    "attack": 3,
+    "health": 2,
+    "cost": "1G",
+    "keywords": ["Strength"],
+    "description": "Its roar shakes the forest, its claws carve legends into the earth.",
+    "image": "https://i.imgur.com/VgUOxfh.png"
+  },
+  {
+    "name": "Shinigami",
+    "type": "Creature",
+    "color": "White",
+    "attack": 2,
+    "health": 1,
+    "cost": "W",
+    "keywords": ["Aura"],
+    "description": "With every swing of the scythe, another name is crossed from its list.",
+    "image": "https://i.imgur.com/wgXqtzb.png"
+  },
+  {
+    "name": "Wanderer",
+    "type": "Creature",
+    "color": "Blue",
+    "attack": 1,
+    "health": 3,
+    "cost": "1U",
+    "keywords": ["Draw"],
+    "description": "With no home to return to, the road itself becomes a companion.",
+    "image": "https://i.imgur.com/e6dP9XK.png"
+  },
+  {
+    "name": "Demon",
+    "type": "Creature",
+    "color": "Black",
+    "attack": 3,
+    "health": 4,
+    "cost": "2B",
+    "keywords": ["Armored"],
+    "description": "Whispers of ruin follow in its wake, promising power at a terrible cost.",
+    "image": "https://i.imgur.com/E7B5bp2.png"
+  },
+  {
+    "name": "Treant",
+    "type": "Creature",
+    "color": "Green",
+    "attack": 2,
+    "health": 5,
+    "cost": "2G",
+    "keywords": ["Photosynthesis"],
+    "description": "Ancient guardians of the wood, their roots run as deep as their wisdom.",
+    "image": "https://i.imgur.com/POWna9m.png"
+  },
+  {
+    "name": "Fish",
+    "type": "Creature",
+    "color": "Blue",
+    "attack": 1,
+    "health": 1,
+    "cost": "U",
+    "keywords": ["Swift"],
+    "description": "Silent, unblinking, and always watching from the depths.",
+    "image": "https://i.imgur.com/jrEARJX.png"
+  },
+  {
+    "name": "Paladin",
+    "type": "Creature",
+    "color": "White",
+    "attack": 3,
+    "health": 4,
+    "cost": "2W",
+    "keywords": ["Alert"],
+    "description": "A beacon of light amidst the darkness, unyielding in faith.",
+    "image": "https://i.imgur.com/XbGNxzQ.png"
+  },
+  {
+    "name": "Warlock",
+    "type": "Creature",
+    "color": "Black",
+    "attack": 2,
+    "health": 5,
+    "cost": "1BB",
+    "keywords": ["Hex"],
+    "description": "The price of forbidden knowledge is paid in whispers and shadows.",
+    "image": "https://i.imgur.com/1Od56Nz.png"
+  },
+  {
+    "name": "Wizard",
+    "type": "Creature",
+    "color": "Red",
+    "attack": 2,
+    "health": 5,
+    "cost": "2R",
+    "keywords": ["Flamme"],
+    "description": "The arcane bends to their will, though it is never without a cost.",
+    "image": "https://i.imgur.com/L7f6WIk.png"
+  },
+  {
+    "name": "Bird",
+    "type": "Creature",
+    "color": "White",
+    "attack": 4,
+    "health": 3,
+    "cost": "3W",
+    "keywords": ["Flight"],
+    "description": "A fleeting shadow against the sun, untouchable and free.",
+    "image": "https://i.imgur.com/SQSdWdc.png"
+  },
+  {
+    "name": "Rat",
+    "type": "Creature",
+    "color": "Black",
+    "attack": 1,
+    "health": 1,
+    "cost": "1B",
+    "keywords": ["Garbage"],
+    "description": "Where one scurries, a hundred more lie in wait.",
+    "image": "https://i.imgur.com/uOt86DX.png"
+  }
+]
